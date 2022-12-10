@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
@@ -8,13 +9,17 @@
     <link rel="stylesheet" href="assets/css/nameTracer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&amp;family=Poppins:wght@300;600&amp;display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&amp;family=Poppins:wght@300;600&amp;display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&amp;display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="assets/img/icons.svg" type="image/x-icon">
     <title>Name Tracer</title>
 
 </head>
+
 <body>
     <header class="main-header">
         <h1>Name Tracer App</h1>
@@ -22,40 +27,40 @@
 
     <div class="main-container">
         <div class="text-container">
-             <input id = "name-text" class= "name-text" type="form" maxlength="30" placeholder= "Enter your name" required >
+            <input id="name-text" class="name-text" type="form" maxlength="30" placeholder="Enter your name" required>
         </div>
-        <div class = the-font >
-            <label > Font Style: </label>
-                <select class  =" font-label" id="font-label">
-                    <option>Codystar</option>
-                    <option>Raleway Dots</option>
-                </select>
-            <label > How Many Lines: </label>
-                <select class  = "page-label" id="page-label"> 
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
+        <div class=the-font>
+            <label> Font Style: </label>
+            <select class=" font-label" id="font-label">
+                <option>Codystar</option>
+                <option>Raleway Dots</option>
+            </select>
+            <label> How Many Lines: </label>
+            <select class="page-label" id="page-label">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
         </div>
         <div class="btn-container">
-            <button id= "convert-btn" class="convert-btn">Convert</button>
+            <button id="convert-btn" class="convert-btn">Convert</button>
             <button id="reset-btn" class="reset-btn"> Reset Button</button>
             <button id="print-btn" class="print-btn"> Print Button</button>
         </div>
-        <br>  
-    </div>   
+        <br>
+    </div>
 
     <section class="section-result">
-            <h1>Result</h1>
+        <h1>Result</h1>
         <div class="result-container">
-            <ul id="result-list">               
+            <ul id="result-list">
             </ul>
         </div>
     </section>
 
-    <footer>    
+    <footer>
         <div class="footer">
             <div class="footer-column">
                 <ul>
@@ -75,4 +80,5 @@
     <script src="assets/js/tracer.js"></script>
 
 </body>
+
 </html>
