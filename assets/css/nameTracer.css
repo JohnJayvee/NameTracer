@@ -38,7 +38,7 @@ body::-webkit-scrollbar {
 
 header{
     padding-top: 2rem;
-    background-color: rgb(24, 128, 192);
+    background-color: rgb(0, 157, 255);
     color: white;
     /* relative normal  
     An element with position: relative; is positioned relative to its normal position.
@@ -60,7 +60,7 @@ header{
 
 .footer{
     padding-top: 0.6rem;
-    background-color: rgb(24, 128, 192);
+    background-color: rgb(0, 157, 255);
     color: rgb(0, 0, 0);
     font-size: 1em;
     overflow: auto;
@@ -105,7 +105,9 @@ h1{
 
 .main-container{
     
-    background-color: rgb(24, 128, 192);
+    /* background-color: rgb(24, 128, 192); */
+    background-color: rgb(0, 157, 255);
+
     
 }
 
